@@ -27,7 +27,9 @@
 
 #include "lua.h"
 #include "lauxlib.h"
+#include "jit_allocator.h"
 
+#include "lj_allocator.c"
 #include "lj_gc.c"
 #include "lj_err.c"
 #include "lj_char.c"
